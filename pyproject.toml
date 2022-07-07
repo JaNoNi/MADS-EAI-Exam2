@@ -5,7 +5,18 @@ description = ""
 authors = ["Janosch Hoefer"]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = ">=3.09,<3.10"
+pandas = "^1.4.3"
+scipy = "^1.8.1"
+matplotlib = "^3.5.2"
+seaborn = "^0.11.2"
+ipykernel = "^6.15.0"
+shapash = {extras = ["scikit-learn"], version = "^2.0.1"}
+ipywidgets = "^7.7.1"
+acv-exp = "^1.2.2"
+numpy = "~1.21"
+category-encoders = "^2.5.0"
+lime = "^0.2.0"
 
 [tool.poetry.dev-dependencies]
 black = "^22.1.0"
