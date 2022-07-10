@@ -13,7 +13,6 @@ seaborn = "^0.11.2"
 ipykernel = "^6.15.0"
 shapash = {extras = ["scikit-learn"], version = "^2.0.1"}
 ipywidgets = "^7.7.1"
-acv-exp = "^1.2.2"
 numpy = "~1.21"
 category-encoders = "^2.5.0"
 lime = "^0.2.0"

@@ -10,15 +10,10 @@ Some interactive visualizations require a specific Jupyter Lab configuration. Fo
 [link](https://shapash.readthedocs.io/en/latest/installation-instructions/index.html#compatibility-issues).
 My steps were:
 
-- Intall Jupyter Lab in the global env
+- Intall Jupyter Lab in the global env (Can also be install in the venv, but my installation is located inside the global environment to reduce number of Jupyter Lab installations)
 - Install `widgetsnbextension` in the global env
 - Run `jupyter nbextension enable --py widgetsnbextension` in the global env
 - Install Nodejs
 - Run `jupyter labextension install @jupyter-widgets/jupyterlab-manager` in the global env
 - Install `plotly` in the global env
 - Run `jupyter labextension install jupyterlab-plotly` in the global env
-
-### acv-exp
-
-- In order to install `acv-exp` on macos, gcc must be installed.
-- Follow the steps decribed [here](https://pypi.org/project/pysteps/1.0.0/) to successfully installs gcc.
